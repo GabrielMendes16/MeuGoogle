@@ -1,0 +1,115 @@
+*{
+  padding: 0%;
+  text-decoration: none;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    
+    
+    
+
+}
+
+.item{
+    display: flex;;
+    padding:  0.1rem 0.5rem;
+    align-items: center;
+    color: black;
+}
+
+
+.tamanho{
+    height: 28px;
+}
+
+.contatiner-logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.item-logo{
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.tamanho-logo{
+    height: 95px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.estilo-input{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border:  #ddd solid 1px;
+    height: 30px;
+    padding: 8px 18px;
+    border-radius: 30px;
+    outline: none;
+    width: 75vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 560px;
+}
+
+.estilo-input:hover{
+    box-shadow: 4px 4px 4px 4px #ddd;
+}
+
+
+
+.container-buttom{
+    display: flex;
+    
+}
+
+.estilo-buttom{
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    align-items: center;
+    padding: 0.1vh 3vh;
+    margin: 0 0.5vh;
+    margin-bottom: 25px;
+    
+}
+
+.estilo-buttom:hover{
+    box-shadow: 4px 4px 4px 4px #ddd;
+   
+}
+
+
+.container-icones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.tamanho-icones{
+    align-items: center;
+    height:60px;
+    margin: 0 5vh;
+}
+
+.estilo-icones:hover{
+    box-shadow: 0 0 1em #334c8c;
+    border: 1px solid #f8f9fa;
+    border-radius: 60%;
+    
+    
+    
+}
